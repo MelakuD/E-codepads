@@ -40,9 +40,12 @@ html,body{
 	font-weight: bold;
 }
 .padding{
-    padding: 4rem;
+	padding-top: 4rem;
+	padding-left: 0.6rem;
+	padding-right: 3rem;
 }
 .py-3{
     color: rgb(153, 76, 20);
     font-weight: bold;
 }
+
