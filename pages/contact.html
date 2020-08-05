@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+	<link rel="icon" href="../images/apple-touch-icon-57x57.png">
+    <link rel="stylesheet" href="../styles/contact.css">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand"><h2>&#8249;E&#8209;codepad&#8260;&#8250;</h2></a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#menubar" type="button">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menubar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" id="dropmenu">
+								Tutorials
+							</button>
+							<div class="dropdown-menu" data-target="#dropmenu">
+								<a class="dropdown-item" href="tutorials.html">HTML</a>
+								<a class="dropdown-item" href="#">CSS</a>
+								<a class="dropdown-item" href="#">BOOTSTRAP</a>
+								<a class="dropdown-item" href="#">JAVASCRITP</a>
+								<a class="dropdown-item" href="#">JQUERY</a>
+								<a class="dropdown-item" href="#">PYTHON</a>
+								<a class="dropdown-item" href="#">JAVA</a>
+								<a class="dropdown-item" href="#">C++</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" id="dropmenu2">
+								Project
+							</button>
+							<div class="dropdown-menu" data-target="#dropmenu2">
+								<a class="dropdown-item" href="project.html">HTML</a>
+								<a class="dropdown-item" href="#">CSS</a>
+								<a class="dropdown-item" href="#">BOOTSTRAP</a>
+								<a class="dropdown-item" href="#">JAVASCRITP</a>
+								<a class="dropdown-item" href="#">JQUERY</a>
+								<a class="dropdown-item" href="#">PYTHON</a>
+								<a class="dropdown-item" href="#">JAVA</a>
+								<a class="dropdown-item" href="#">C++</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+				</ul>
+				<div class="flost-right pr-3">
+					<a href="signup.html"><button class="btn btn-primary btn-sm">signup</button></a>
+					<a href="login.html"><button class="btn btn-success btn-sm">Login</button></a>
+				</div>
+			</div>
+		</div>
+    </nav>
+    <!--contact body-->
+    <div class="container-fluid padding">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h1 class="display-5">GET IN TOUCH</h1>
+                <p><span class="one"><i class="fa fa-phone-square"></i></span></i> +251 937 605 572</p>
+                <p><span class="two"><i class="fa fa-envelope-open"></i></span> melakudejene12@gmial.com</p>
+                <p><span class="three"><i class="fa fa-location-arrow"></i></span> Addis Ababa,Ethiopia</p>
+                <button class="btn bg-dark text-light" data-toggle="collapse" data-target="#socials">Social</button>
+                <div id="socials" class="collapse soc">
+                    <a href="#"><i class="fab fa-facebook"></i></a><br/>
+                    <a href="#"><i class="fab fa-twitter"></i></a><br/>
+                    <a href="#"><i class="fab fa-instagram"></i></a><br/>
+                    <a href="#"><i class="fab fa-youtube"></i></a><br/>
+                    <a href="https://t.me/M_D_21"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <form action="https://t.me/M_D_21" method="POST">
+                    <div class="form-group">
+                        <label for="fname">First Name<sup style="color: red;">*</sup></label>
+                        <input class="form-control" type="text" id="fname" placeholder="First name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name<sup style="color: red;">*</sup></label>
+                        <input class="form-control" type="text" id="lname" placeholder="Last name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email<sup style="color: red;">*</sup></label>
+                        <input class="form-control" type="email" id="email" placeholder="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message </label>
+                        <textarea class="form-control" placeholder="Message here .." id="massage"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input  type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--map-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.92391005983!2d38.74172451431679!3d9.070696690833156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f29bacc7c95%3A0xe5fcbb8bb1c71e74!2zU3QgTWljaGFlbCDvvIjhiYXhi7HhiLUg4Yia4Yqr4Yqk4YiN77yJ!5e0!3m2!1sen!2set!4v1596447099763!5m2!1sen!2set" width="600" height="450" frameborder="0" scrolling="no" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                            <a href="https://goo.gl/maps/HorVtPwxwEbHpkid9"></a>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

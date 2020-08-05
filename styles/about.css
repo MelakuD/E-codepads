@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	background-color: rgb(138, 136, 136);
+}
+.navbar{
+	padding: 0.5rem;
+	background-color: rgb(230, 218, 201);
+}
+.navbar-nav li{
+    padding-right: 15px;
+}
+.nav-link{
+	font-size: 1rem !important;
+	color: black;
+	font-weight: bold;
+}
+.nav-link:hover::first-letter{
+	border-bottom: chocolate 2px solid;
+}
+.navbar-brand h2{
+	font-weight: bold;
+	color: black;
+}
+.navbar-brand h2::first-letter{
+	color: chocolate;
+}
+.form-inline button{
+	margin-right: 0.2rem;
+}
+.form-inline input{
+	border-radius: 15px;
+	border: black 1px solid;
+}
+.container-fluid .row ul li{
+	padding: 0 2rem;
+	font-weight: bold;
+}
+.padding{
+    padding: 4rem;
+}
+.py-3{
+    color: rgb(153, 76, 20);
+    font-weight: bold;
+}

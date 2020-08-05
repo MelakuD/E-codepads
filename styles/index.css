@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	background-color: rgb(197, 197, 197);
+}
+.navbar{
+	padding: 0.5rem;
+	background-color: rgb(230, 218, 201);
+}
+.navbar-nav li{
+    padding-right: 15px;
+}
+.nav-link{
+	font-size: 1rem !important;
+	color: black;
+	font-weight: bold;
+}
+.nav-link:hover::first-letter{
+	border-bottom: chocolate 2px solid;
+}
+.navbar-brand h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+}
+.navbar-brand h2::first-letter{
+	color: chocolate;
+}
+.form-inline button{
+	margin-right: 0.2rem;
+}
+.form-inline input{
+	border-radius: 15px;
+	border: black 1px solid;
+}
+.container-fluid .row ul li{
+	padding: 0 2rem;
+	font-weight: bold;
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+}
+.carousel-inner .carousel-item img{
+    height: 75vh;
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 70%;
+    transform: translateY(-70%);
+}
+.carousel-caption h1{
+    font-size: 300%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption button{
+	border: none;
+	padding: 0.4rem 1rem;
+	border-radius: 15px;
+	background-color: rgb(56, 56, 141);
+	color: white;
+}
+.carousel-caption button:hover{
+	background-color: blue;
+}
+
+.my-4{
+	width: 90%;
+	height: 2px;
+	background-color: black;
+}
+.padding{
+	padding-top: 2rem;
+}
+.philo h3{
+	padding-bottom: 2rem;
+	font-weight: bold;
+}
+.philo img{
+	width: 100%;
+	height: 100%;
+}
+.card{
+	height: 12rem;
+}
+.card-header{
+	background-color: rgb(61, 60, 60);
+}
+.fa-code{
+	color: chocolate;
+	font-size: 25px;
+	text-shadow: 0px 0px 5px white;
+}
+.fa-css3{
+	color: blue;
+	font-size: 25px;
+	text-shadow: 0px 0px 5px white;
+}
+.fa-bold{
+	color: rgb(73, 11, 155);
+	font-size: 25px;
+	text-shadow: 0px 0px 5px white;
+}
+.fa-js{
+	color: rgb(220, 243, 9);
+	font-size: 25px;
+	background-color: black;
+	text-shadow: 0px 0px 5px white;
+}
+.shado{
+	color: rgb(26, 56, 122);
+	font-size: 18px;
+	text-shadow: 0px 0px 5px white;
+}
+.fa-python{
+	color: rgb(133, 127, 45);
+	font-size: 25px;
+	text-shadow: 0px 0px 5px white;
+}
+.card .card-header .fa-java{
+	text-shadow: 0px 0px 5px white;
+	color: rgb(155, 11, 11);
+	font-size: 25px;
+}
+.fa-cuttlefish, .fa-plus{
+	color: white;
+	font-size: 25px;
+	text-shadow: 0px 0px 5px white;
+}
+footer{
+	background-color: #222222;
+	color: white;
+}
+.social{
+	font-size: 1.5rem;
+	padding-bottom: 1rem;
+}
+.social a{
+	padding-left: 2rem;
+}
+.fa-facebook, .fa-twitter, .fa-instagram,
+.fa-youtube, .fa-telegram{
+	color: gray;
+}
+.fa-facebook:hover{
+	color: rgb(33, 33, 119);
+	text-shadow: 0px 0px 5px white;
+}
+.fa-youtube:hover{
+	color: red;
+	text-shadow: 0px 0px 5px white;
+}
+.fa-twitter:hover{
+	color: rgb(39, 89, 226);
+	text-shadow: 0px 0px 5px white;
+}
+.fa-telegram:hover{
+	color: rgb(10, 69, 92);
+	text-shadow: 0px 0px 5px white;
+}
+.fa-instagram:hover{
+	color: brown;
+	text-shadow: 0px 0px 5px white;
+}
+.foot{
+	color: gray;
+}
+@media(max-width:992px){
+	.navbar-nav li{
+		padding-bottom: 5px;
+	}
+	.navbar-brand h2{
+		font-weight: none;
+		font-size: 18px;
+	}
+	.card-body h1{
+		font-size: 1.1rem !important;
+		font-weight: bold;
+	}
+}
+@media(max-width:768px){
+	.carousel-caption h1{
+		font-size: 200%;
+		text-transform: uppercase;
+		text-shadow: 0px 0px 15px #000;
+	}
+	.carousel-caption button{
+		padding: 0.3rem 0.8rem;
+		border-radius: 13px;
+	}
+	.learn{
+		font-size: 300%;
+	}
+	.card{
+		margin-bottom: 12px;
+	}
+}
+@media(max-width:576px){
+	.container-fluid .row ul li{
+		padding: 0 0.4rem;
+		font-weight: none;
+	}
+	.card{
+		margin-bottom: 12px;
+	}
+	.fa-code, .fa-js, .fa-python,
+	.fa-java, .fa-plus, .fa-css3,
+	.fa-cuttlefish, .learn, .fa-bold{
+		font-size: 18px;
+	}
+	.card-body h1{
+		font-size: 20px;
+	}
+	.card-body p{
+		font-size: 18px;
+	}
+	.carousel-caption h1{
+		font-size: 100%;
+		text-transform: uppercase;
+		text-shadow: 0px 0px 15px #000;
+	}
+	.carousel-caption button{
+		padding: 0.3rem 0.6rem;
+		border-radius: 13px;
+	}
+}

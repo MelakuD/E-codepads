@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	background-color: rgb(197, 197, 197);
+}
+.navbar{
+	padding: 0.5rem;
+	background-color: rgb(230, 218, 201);
+}
+.navbar-brand h2{
+	font-weight: bold;
+	color: black;
+}
+.navbar-brand h2::first-letter{
+	color: chocolate;
+}
+.float-right{
+    float: right;
+}
+.my-5{
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+form{
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+label{
+    font-size: 25px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(18, 18, 109);
+}
