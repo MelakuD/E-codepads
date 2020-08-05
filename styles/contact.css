@@ -29,7 +29,7 @@ html,body{
 	color: chocolate;
 }
 .padding{
-    padding: 4rem;
+    padding: 4rem 1rem;
 }
 .padding .row .col-sm-12 form{
     box-shadow: 0px 0px 10px black;
