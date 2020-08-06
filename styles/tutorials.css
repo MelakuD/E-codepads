@@ -31,3 +31,7 @@ html,body{
 .lead{
     color: white;
 }
+.tab-pane h4{
+	color: #fff;
+	font-weight: 600;
+}
